@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #000;
+
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0;
+}
+.display-image {
+    width: 600px;
+    height: 300px;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow: hidden;
+    
+}
+
+.images {
+    width: 350px;
+    height: 200px;
+}
+
+.active {
+    border: 5px solid white;
+    transform: scaleY(90%);
+}
